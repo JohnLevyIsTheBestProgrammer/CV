@@ -3,37 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>MyCV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
    <h1>John Levy</h1> 
-   <table>
-       <td> <img src="John_Levy.jpg" alt="Алексей"> </td>
-       <td>Настоящее имя - <strong>Балюра Алексей</strong></td>
-   </table>
-   <p> Я являюсь начинающим программистом.</p>
-   <a> Я люблю алгоритмизацию.</p>
-   <hr>
-   <h2>Меня можно найти:</h2>
-   <ul  type="square">
-       <li> <strong> Telegram: <em>@John_Levy</em> </strong></li>
-       <li> <a href="https://vk.com/john_levy" target="_blank"> VK </a> <a href="Second_page.html"><em>(предпросмотр)</em></a>     </li>
-   </ul>
-   <hr>
-   <h2>Мои хобби</h2>
+   
+           <img src="John_Levy.jpg" alt="Алексей" class="Avatar"> 
+         <div class="info">
+              <h2> Настоящее имя - Балюра Алексей </h2>
+              <p> Я являюсь начинающим программистом.</p>
+              <p> Я люблю алгоритмизацию.</p>
+          </div>
+    <div class="card bg-yellow">
+      <h2>Меня можно найти:</h2>
+      <strong> Telegram: <em>@John_Levy</em> </strong>|
+      <a href="https://vk.com/john_levy" target="_blank"> VK </a> <a href="Second_page.html"><em>(предпросмотр)</em></a>     </li>
+      <!-- <a href="https://invisible.ru" > asdasdasda</a> -->
+    </div>
+   <div class="card bg-green">
+    <h2>Мои хобби</h2>
    <ol>
        <li> Диалог с людьми </li>
        <li> Изучение программирования </li>
        <li> Разборка техники на мелкие детали </li>
    </ol>
-      <hr>
+   </div>
+   <div class="card bg-red">
+        <h2><strong> <ins>Опыт работы</ins> </strong></h2>
        
-   <table>
-        <tr>
-        <th></th>
-        <th> <strong> <ins>Опыт работы</ins> </strong> </th>
-        <th></th>
-      </tr>
-        <tr>
+     
+   <table class="table">
+       <tr>
          <th>Компания</th>
          <th>Должность</th>
          <th>Год</th>
@@ -65,17 +66,35 @@
       </tr>
        
     </table>
-   <hr>
+  </div>
+  <div class="card">
    <h2>Любимая фраза  </h2>
    <pre>" Все проблемы решаются диалогом "</pre>
-   <h2>Предлагаю создать список поучительных фраз</h2>
-   <form>
+  </div>
+  <div class="row">
+  <div class="contakt"> 
+  <h2>Предлагаю создать список поучительных фраз</h2>
+   <div class="form-group">
+  <form>
        <label for="data">Ваша фраза:</label>
        <textarea name="data" id="data" cols="100" rows="1"></textarea>
        <input type="submit" value="Запомнить">
     </form>
+  </div>
+  <div class="form-group">
     <form>
      <input type="submit" value="Забыть"><p></p>
     </form>
+  </div>
+  </div>
+</div>
+  <div class="box-model">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div style="margin-bottom: 500px"></div>
+
 </body>
 </html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body{
+background-color: #f1f1f1;
+color: #0f141e;
+
+/* font-size: 16px; */
+/* font-weight: normal; */
+/* font-family: 'Quintessential', cursive; */
+
+font:normal 16px 'Quintessential', cursive
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+/* a:visited{
+   color: rgb(250, 125, 125); 
+} */
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+table{
+    margin:auto;
+}
+
+p{
+margin-left: 20px;
+}
+
+.Avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px #0f141e;
+    margin-left: 37%;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+
+.info{
+    background: #100f1e18;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+.info p {
+    color:#1100fa;
+}
+
+.a123456 {
+     margin-left: 30%; 
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.box-model > div{
+    float: left;
+    background: #0f141e;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+}
+
+.card{
+    padding: 15px 20px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.list li{
+color: #86898f;
+margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 5px;
+}
+
+.table td:nth-child(2),.table td:nth-child(2){
+    color: grey;
+}
+
+/* .contakt{
+
+} */
+
+.form-group label{
+    display: block;
+}
+
+.form-group input{
+    display: block;
+    margin-bottom: 10px;
+    /* box-sizing:border-box; */
+    
+}
+
+.form-group textarea{
+    display: block;
+    max-width: 730px;
+    max-height: 100px;
+    width: 100%;
+    margin: 10px;
+    /* background: transparent; */
+    border: none;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    outline: none;
+    padding:20px;
+}
+.row{
+    display: flex;
+}
+
+.row > .form-group{
+    width: 50%;
+}
